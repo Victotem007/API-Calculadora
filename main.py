@@ -1,14 +1,18 @@
 def sumar(a, b):
-    return a + b
+    resultado = a + b
+    return resultado
 
 def restar(a, b):
-    return a - b
+    resultado = a - b
+    return resultado
 
 def dividir(a, b):
-    return a / b
+    resultado = round(a / b,2)
+    return resultado
 
 def multiplicar(a, b):
-    return a * b
+    resultado = a * b
+    return resultado
 
 if __name__ == "__main__":
     opcion = input("¿Que operacion deseas hacer? Escribe Multiplicar, Dividir, Restar o Sumar dependiendo de cual sea ").lower()
